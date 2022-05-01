@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+#mainWrapper {
+    width: 1280px;
+    background: white;
+    margin: 25px auto;
+}
+
+#canvasWrapper {
+    width: 1280px;
+    height: 650px;
+    position: relative;
+}
+
+#canvasBG, #canvasFG {
+    display: block;
+    position: absolute;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#hsButtonRow {
+    width: max-content;
+    margin: 25px auto;
+    display: flex;
+    column-gap: 10px;
+    line-height: 2em;
+}
+
+#hsButtonRow input {
+    width: 200px;
+    border-width: 0 0 1px;
+}
+
+#hsButtonRow button {
+    border-radius: 5px;
+    background-color: #03c9d1;
+    padding: 5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+#description {
+    border-top: 1px solid lightgray;
+    width: 1280px;
+    margin: 25px auto;
+    padding: 25px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#hiddenButton, .hidden {
+    display: none ! important;
+}
